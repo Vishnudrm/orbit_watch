@@ -1,0 +1,21 @@
+# Delta Lake data
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Docker
+*.log
+build.log
+
+# dbt
+dbt/target/
+dbt/logs/
+
+# OS
+.DS_Store
